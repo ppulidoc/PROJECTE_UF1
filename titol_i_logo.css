@@ -9,7 +9,7 @@
     /* TITULO */
 
 #top {
-    background: linear-gradient(white, grey);
+    background: white;
     width: 100%;
     height:10%;
     text-align: center;
@@ -34,8 +34,9 @@
     background-color: black;
     width: 5%;
     height: 70%;
-    margin-left: 4%;
+    margin-left:80%;
     margin-top: 1%;
+
     float: left;
 
 }
@@ -48,25 +49,28 @@
 
     /* Menu */
 
-body {font-family:helvetica, arial}
+body {font-family:helvetica, arial;}
 
 /*Menú Lateral Guía de Patrones*/
+
+
 .menu-lateral {
     display: table;
-    width: 100%;
+    width: 60%;
     margin-left: 0px;
     padding-left: 0px;
+
 }
 .menu-lateral__item a {
     list-style-type: none;
     display: block;
     padding: .3em 1em;
-    background-color: black;
+    background-color: white;
     color: #A0A0A0;
     text-decoration: none;
 }
 .menu-lateral__item a:hover{
-    background-color: black;
+    background-color: white;
     color: #707070;
 }
 
@@ -84,6 +88,7 @@ body {font-family:helvetica, arial}
 }
 .nav--top:after {
     content: "☰";
+    color: black;
     font-size: 2em;
     width: 1em;
     line-height: 1;
@@ -100,13 +105,12 @@ body {font-family:helvetica, arial}
     margin: 0;
     padding: 0;
     padding-top: 3em;
-    position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
-    width: 100vw;
+    background-color: white;
+    width: 9vw;
     z-index: -1;
-    height: 80px;
+    height: 150px;
 }
 
 .checkbox__hack {
