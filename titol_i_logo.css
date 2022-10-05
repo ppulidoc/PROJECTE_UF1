@@ -9,7 +9,7 @@
     /* TITULO */
 
 #top {
-    background: linear-gradient(white, grey);
+    background: white;
     width: 100%;
     height:10%;
     text-align: center;
@@ -27,6 +27,8 @@
 
 #title h2 {
     text-shadow: 3px 6px grey;
+    color: black
+
 }
     /* LOGO */
 
