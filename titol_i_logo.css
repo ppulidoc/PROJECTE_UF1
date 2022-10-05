@@ -36,8 +36,9 @@
     background-color: black;
     width: 5%;
     height: 70%;
-    margin-left: 4%;
+    margin-left:80%;
     margin-top: 1%;
+
     float: left;
 
 }
@@ -48,3 +49,98 @@
 
 }
 
+    /* Menu */
+
+body {font-family:helvetica, arial;}
+
+/*Menú Lateral Guía de Patrones*/
+
+
+.menu-lateral {
+    display: table;
+    width: 60%;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+.menu-lateral__item a {
+    list-style-type: none;
+    display: block;
+    padding: .3em 1em;
+    background-color: white;
+    color: #A0A0A0;
+    text-decoration: none;
+}
+.menu-lateral__item a:hover{
+    background-color: white;
+    color: #707070;
+}
+
+/*Menu Hamburguesa*/
+.nav--top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 3em;
+    height: 3em;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+}
+.nav--top:after {
+    content: "☰";
+    color: black;
+    font-size: 2em;
+    width: 1em;
+    line-height: 1;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-top: -6px;
+    margin-left: -4px;
+}
+
+.nav--top__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 3em;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 9vw;
+    z-index: -1;
+    height: 150px;
+}
+
+.checkbox__hack {
+    display: none;
+
+}
+
+.checkbox__hack:checked ~ .nav--top {
+    overflow: visible;
+}
+.checkbox__hack:checked ~ .nav--top::after {
+    content: "x";
+}
+
+.checkbox-hack__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 52.8px;
+    color: black;
+    overflow: visible;
+    cursor: pointer;
+    margin: 0;
+    z-index: 100;
+}
+@media screen and (min-width: 500px) {
+    .nav--top__list {
+    }
+}
