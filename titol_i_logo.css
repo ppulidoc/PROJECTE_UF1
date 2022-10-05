@@ -87,6 +87,8 @@ body {font-family:helvetica, arial;}
     color: white;
     overflow: hidden;
     cursor: pointer;
+    margin-left: 1%;
+    margin-top: 1.5%;
 }
 .nav--top:after {
     content: "☰";
@@ -98,8 +100,7 @@ body {font-family:helvetica, arial;}
     position: absolute;
     top: 25%;
     left: 25%;
-    margin-top: -6px;
-    margin-left: -4px;
+
 }
 
 .nav--top__list {
