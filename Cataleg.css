@@ -127,3 +127,20 @@ body {font-family:helvetica, arial;}
     height:400%;
     width: 30%;
 }
+
+#contingut {
+    width: 60%;
+    height: 80%;
+    background: linear-gradient(lightsteelblue, grey);
+    float: left;
+    margin-left: 20%;
+    border: solid 1px black;
+    margin-top: 2%;
+}
+#info1 {
+    width: 30%;
+    height: 25%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 8%;
+}
