@@ -145,71 +145,29 @@ body {font-family:helvetica, arial;}
     .nav--top__list {
     }
 }
-/* PLANA PRINCIPAL */
-#contingut {
-    width: 60%;
-    height: 70%;
-    background: linear-gradient(lightsteelblue, grey);
-    float: left;
-    margin-left: 20%;
-    border: solid 1px black;
-}
-/* PLANA PRINCIPAL */
-#contingut {
-    width: 60%;
-    height: 80%;
-    background: linear-gradient(lightsteelblue, grey);
-    float: left;
-    margin-left: 20%;
-    border: solid 1px black;
-}
-    /* PRIMER BLOQUE DE INFO*/
-#info1 {
-    width: 30%;
-    height: 25%;
-    float: left;
-    margin-top: 4%;
-    margin-left: 8%;
-}
 
-#info1 img {
-    width: 80%;
-    height: 80%;
-    margin-top: 7%;
-    margin-left: 10%;
-    border: solid 1px black;
-}
-    /* SEGUNDO BLOQUE DE INFO*/
-#info2 {
+/* REGISTRE */
+
+#form form {
     width: 50%;
-    height: 25%;
-    float: left;
-    margin: 4%;
-}
-#info2 p {
-    margin-top: 7%;
-    margin-left: 8%;
-    margin-right: 8%;
-    font-size: 20px;
-    font-weight: bolder;
+    margin-left: 22%;
+    margin-top: 8%;
+    padding: 3%;
+    color: black;
+    border: 1px solid black;
 
 }
-    /* TERCER BLOQUE DE INFO*/
-#info3 {
-    width: 80%;
-    height: 50%;
-    float: left;
-    margin-left: 10%;
+
+#form label, input,select {
+    width: 100%;
+    display: block;
+    font-size: 1.2em;
 }
-#info3 h2 {
-    font-size: 20px;
-    margin-left:20%;
-    text-shadow: 3px 6px white;
-    color: black
-}
-#info3 video {
-    width: 80%;
-    height: 80%;
-    margin-left: 10%;
+#form input, select {
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
+.error {
+    color: red;
+}
