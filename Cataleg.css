@@ -121,26 +121,61 @@ body {font-family:helvetica, arial;}
 
 /* Productes */
 
-#producte{
-    margin-left: 5%;
-    margin-top: 10%;
-    height:400%;
-    width: 30%;
+.producte{
+   margin-left: 10%;
+    margin-top: 5%;
+    height:100%;
+    width: 20%;
+    margin-bottom: 10%;
+    float: left;
+}
+.camisetes{
+    width: 70%;
+}
+
+.titol{
+    font-size: 15px;
 }
 
 #contingut {
     width: 60%;
-    height: 80%;
+    height: 100%;
     background: linear-gradient(lightsteelblue, grey);
-    float: left;
     margin-left: 20%;
     border: solid 1px black;
     margin-top: 2%;
 }
-#info1 {
-    width: 30%;
-    height: 25%;
+.info1 {
+    width: 100%;
+    height: 40%;
     float: left;
     margin-top: 4%;
-    margin-left: 8%;
+
 }
+
+
+
+ul li{
+    display:inline-block;
+    width:15%;
+    height: 10%;
+    margin-left: 5%;
+    padding:4% 10px;
+    border:1px solid #000;
+    text-align:center;
+    color:black;
+    font-family: Calibri;
+}
+#Menuroba{
+    margin-left: 1%;
+}
+
+
+
+
+/*#Menuroba {*/
+/*    width: 100%;*/
+/*    height: 10%;*/
+/*    float: left;*/
+
+/*}*/
