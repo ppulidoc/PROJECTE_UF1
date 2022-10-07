@@ -154,62 +154,66 @@ body {font-family:helvetica, arial;}
     margin-left: 20%;
     border: solid 1px black;
 }
-/* PLANA PRINCIPAL */
-#contingut {
-    width: 60%;
-    height: 80%;
-    background: linear-gradient(lightsteelblue, grey);
-    float: left;
-    margin-left: 20%;
-    border: solid 1px black;
-}
-    /* PRIMER BLOQUE DE INFO*/
-#info1 {
-    width: 30%;
-    height: 25%;
-    float: left;
-    margin-top: 4%;
-    margin-left: 8%;
-}
 
-#info1 img {
-    width: 80%;
-    height: 80%;
-    margin-top: 7%;
-    margin-left: 10%;
-    border: solid 1px black;
-}
-    /* SEGUNDO BLOQUE DE INFO*/
-#info2 {
+/* CONTACTO */
+
+#titol_Cont {
     width: 50%;
-    height: 25%;
+    height: 9%;
     float: left;
-    margin: 4%;
+    padding-left: 8%;
+    margin-top: 3%;
+    margin-left: 22%;
+    border: solid 1px black;
 }
-#info2 p {
-    margin-top: 7%;
-    margin-left: 8%;
-    margin-right: 8%;
-    font-size: 20px;
-    font-weight: bolder;
 
-}
-    /* TERCER BLOQUE DE INFO*/
-#info3 {
-    width: 80%;
-    height: 50%;
-    float: left;
-    margin-left: 10%;
-}
-#info3 h2 {
-    font-size: 20px;
-    margin-left:20%;
+#titol_Cont h2 {
     text-shadow: 3px 6px white;
-    color: black
-}
-#info3 video {
-    width: 80%;
-    height: 80%;
-    margin-left: 10%;
+    color: black;
+    font-size: 26px;
 }
 
+
+#paraules {
+    width: 33%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+
+    padding-left: 2%;
+    padding-top: 2%;
+    float: left;
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+
+#casillas {
+    width: 24%;
+    height: 50%;
+    margin-left: 0%;
+    margin-top: 5%;
+
+    padding-left: 2%;
+    padding-top: 2%;
+    float: left;
+
+}
+
+#enviar {
+    float: left;
+
+    width: 20%;
+    height: 5%;
+    margin-top: 2%;
+    margin-left: 40%;
+
+}
+
+#enviar input {
+    padding: 3%;
+    margin-left: 25%;
+    color: white;
+    font-weight: bolder;
+    background-color: forestgreen;
+}
