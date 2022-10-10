@@ -149,7 +149,7 @@ body {font-family:helvetica, arial;}
     float: left;
 }
 .camisetes{
-    width: 70%;
+    width: 80%;
 }
 
 .titol{
@@ -158,7 +158,7 @@ body {font-family:helvetica, arial;}
 
 #contingut {
     width: 60%;
-    height: 100%;
+    height: 110%;
     background: linear-gradient(lightsteelblue, grey);
     margin-left: 20%;
     border: solid 1px black;
