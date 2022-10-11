@@ -234,7 +234,7 @@ body {font-family:helvetica, arial;}
     height: 20%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 9%;
     margin-bottom: 5%;
 
 }
@@ -250,6 +250,13 @@ body {font-family:helvetica, arial;}
 }
 
 #as_im3 {
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#as_im4 {
     margin-left: 10%;
     margin-right: auto;
     margin-top: 5%;
