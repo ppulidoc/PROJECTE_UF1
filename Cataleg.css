@@ -160,7 +160,6 @@ body {font-family:helvetica, arial;}
     width: 60%;
     height: 110%;
     background: linear-gradient(lightsteelblue, grey);
-    margin-left: 20%;
     border: solid 1px black;
     margin-top: 2%;
 }
@@ -189,13 +188,8 @@ ul li{
     margin-left: 1%;
 }
 
-@media screen and (min-width: 750px) {
-    .nav--top__list {
-    }
-    body {
-        font-size:80%; // achicamos la fuente en pantallas pequeñas
-    }
 }
+
 
 
 
@@ -205,4 +199,3 @@ ul li{
 /*    float: left;*/
 
 /*}*/
-

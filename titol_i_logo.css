@@ -216,14 +216,14 @@ body {font-family:helvetica, arial;}
 }
 
 #aside_left {
-
+    background-color: pink;
     width: 12%;
     height: 80%;
     float: left;
     display: inline-block;
     margin-right: 3%;
     margin-left: 4%;
-
+    border:solid 1px black;
 }
 
 #as_im1 {
