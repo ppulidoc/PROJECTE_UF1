@@ -141,10 +141,7 @@ body {font-family:helvetica, arial;}
     margin: 0;
     z-index: 100;
 }
-@media screen and (min-width: 500px) {
-    .nav--top__list {
-    }
-}
+
 
 /* PLANA PRINCIPAL */
 #contingut {
@@ -263,3 +260,10 @@ body {font-family:helvetica, arial;}
     margin-bottom: 5%;
 }
 
+@media screen and (min-width: 750px) {
+    .nav--top__list {
+    }
+    body {
+        font-size:80%; // achicamos la fuente en pantallas pequeñas
+    }
+}
